@@ -80,3 +80,28 @@ body{
     background-color: #c0c0c0;
     text-align: justify;
 }
+
+/*footer*/
+
+footer {
+    text-align:center ;
+    background-image:url(bg.jpg);
+    padding: 15px 0px;
+}
+
+.redes a{
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.rede img:hover{
+    transition: 0.5s;
+    transform: scale( 2.5);
+    opacity: 30%;
+}
+
+.copyright{
+    font-size: 13px;
+    color: white;
+    margin-top: 15px;
+}
