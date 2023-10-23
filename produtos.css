@@ -1,0 +1,26 @@
+.produto{
+     width: 940px;
+     margin: 0 auto;
+     padding: 50px 0;
+}
+
+.produto li{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 0.1%;
+    box-sizing: border-box;
+    border: 2px solid #989797;
+    border-radius: 5% 5%;
+    text-align: center;
+}
+
+.produtos li:hover{
+    transition: 0.5;
+    border-color: black;
+}
+
+.produtos li:hover h2{
+    transition: 0.5s;
+    font-size: 32px;
+}
