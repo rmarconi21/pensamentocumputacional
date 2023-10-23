@@ -24,3 +24,29 @@
     transition: 0.5s;
     font-size: 32px;
 }
+
+.produtos li:hover .produtos-preco{
+ transition: 0.5s;
+ border-color: aqua;
+}
+
+.produtos li:active{ 
+  transition: 0s;
+  border-color: rgb(4, 250, 250);
+}
+
+.produtos h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.produtos-descricao{
+    text-align: center;
+}
+
+.produtos-preco{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
